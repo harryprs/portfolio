@@ -1,0 +1,12 @@
+title: Harry Parsons
+email: harryprs@hotmail.co.uk
+url: "https://harryprs.github.io/portfolio/"
+baseurl: ""
+github_prof:  https://github.com/harryprs
+linkedin_prof: https://www.linkedin.com/in/harryprs/
+footer_text:
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a>.
+  Hosted by <a href="https://pages.github.com/">GitHub Pages</a>
+  
+sass:
+  sass_dir: _sass

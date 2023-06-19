@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+    <div class="body-row">
+        <div class="large-12 centered-column">
+            <header class="body-header">
+                <img class="header-center profile-img" src="{{site.baseurl}}/public/profile.jpg" />
+                <ul class="header-center header-socials-list">
+                    <li>
+                        <a href="{{site.github_prof}}"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="{{site.linkedin_prof}}"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:{{site.email}}"><i class="fa fa-envelope"></i></a>
+                    </li>
+                    <li>
+                        <a href="{{site.baseurl}}/public/HarryParsonsCSCV2023.docx"><i class="fa fa-file"></i></a>
+                    </li>
+                </ul>
+            </header>
+        </div>
+    </div>
+
+    <div class="body-row">
+        <div class="large-12 centered-column">
+            <div>
+                {{content}}
+            </div>
+            <main>
+                <h2>Latest Projects</h2>
+                {% for post in site.posts %}
+                        {{post}}
+                {% endfor %}
+            </main>
+            <footer>
+                <p>{{site.footer_text}}</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>

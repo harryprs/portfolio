@@ -1,0 +1,22 @@
+<article>
+    <div class="work-post">
+        <div class="post-left-col">
+            <div class="post-body">
+                <div class="post-text-body">
+                    <h3>{{page.title}}</h3>
+                    <p>
+                        {{content}}
+                    </p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="{{page.git}}"><i class="fa fa-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="post-right-col">
+            <img src="{{site.baseurl}}/public/{{page.img}}" />
+        </div>
+    </div>
+</article>
