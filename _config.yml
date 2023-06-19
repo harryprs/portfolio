@@ -1,7 +1,7 @@
 title: Harry Parsons
 email: harryprs@hotmail.co.uk
-url: "https://harryprs.github.io/portfolio/"
-baseurl: ""
+url: "https://harryprs.github.io"
+baseurl: "/portfolio/"
 github_prof:  https://github.com/harryprs
 linkedin_prof: https://www.linkedin.com/in/harryprs/
 footer_text:
