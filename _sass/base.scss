@@ -7,7 +7,7 @@ body {
   }
 
   .body-row {
-    max-width: 50rem;
+    max-width: 55rem;
     width: 100%;
     margin: 0 auto;
     padding: 1rem;
@@ -23,7 +23,7 @@ body {
   }
   
   main > article {
-    height: 20rem;
+    height: 22rem;
     margin: 0.5rem;
     padding: 0.5rem;
     border-bottom: lightgray 2px solid;
@@ -131,4 +131,18 @@ body {
 
 .post-text-body {
   overflow: auto;
+}
+
+.post-links-list {
+  list-style-type: none;
+}
+
+.post-links-list li {
+  float: left;
+}
+
+.post-links-list li a {
+  display: block;
+  padding: 0px 5px 0px 5px;
+  font-size: 36px;
 }

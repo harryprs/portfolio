@@ -2,6 +2,7 @@
 layout: article
 title: "Jelly Clicker"
 git: "https://github.com/harryprs/BlazorJellyClicker"
+site: ""
 img: "jellyclickerimg.jpg"
 ---
 
